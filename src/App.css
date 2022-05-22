@@ -2,7 +2,7 @@
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #fa9b00;
+  --primary-blue: #A4D2D5;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --font-nav: "Roboto Condensed", sans-serif;
@@ -11,6 +11,15 @@
 
 body {
   font-family: "Calibre", sans-serif;
+}
+
+/* * {
+  border: 1px dotted black;
+} */
+
+.component {
+  width: 80%;
+  margin: auto auto;
 }
 
 /********** NAVBAR **********/
@@ -51,17 +60,17 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
-/********** HEADER **********/
+/************** HEADER **************/
 .header-wrap {
   position: relative;
-  background: url(header-image3.jpg) no-repeat;
+  background: url(header-image.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -70,7 +79,6 @@ nav ul li {
 }
 
 /*-------- Header Left --------*/
-
 .header-main-info {
   flex: 1;
   display: flex;
@@ -96,7 +104,6 @@ nav ul li {
     font-size: 1.5rem !important;
   }
 }
-
 
 /*-------- Typed Text --------*/
 /* .typed-text {
@@ -126,32 +133,57 @@ nav ul li {
   transition: .2s ease-in-out;
 }
 
-/********** ABOUT **********/
+/************** ABOUT **************/
 .about {
   text-align: center;
   padding: 50px;
 }
 
-/********** SKILLS **********/
+/************** SKILLS **************/
 .skills {
   text-align: center;
   padding: 50px;
 }
 
-/********** PROJECTS **********/
+/* .skills ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+} */
+
+/************** PROJECTS **************/
 .projects {
-  text-align: center;
   padding: 50px;
 }
 
-.project {
+.projects h3 {
+  text-align: center;
+}
+
+.project-item {
   margin: 50px 0;
 }
+
+.row {
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+
+/* .col-sm {
+
+} */
 
 .description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.project-desc-text {
+  background-color: #ABD6D550;
+  border-radius: 3px;
+  padding: 15px;
 }
 
 .used-skills{
@@ -160,6 +192,7 @@ nav ul li {
   flex-direction: row;
   justify-content: flex-start;
   gap: 10px;
+  padding-left: 0;
 }
 
 .project-link {
@@ -168,18 +201,50 @@ nav ul li {
   flex-direction: row;
   justify-content: flex-start;
   gap: 10px;
+  padding-left: 0;
+}
+
+.project-link a {
+  /* color: ; */
+  font-size: large;
+  text-decoration: none;
 }
 
 .right{
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: flex-end;
+  text-align: right;
 }
 
-.project-desc-text {
-
+.screenshot {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  opacity: 0.7;
 }
 
-/********** CONTACT **********/
+.lovetolearn {
+  background-image: url(quizlist.png);
+}
+
+.travellovers {
+  background-image: url(travellovers_home.png);
+}
+
+.sapling {
+  background-image: url(travellovers_home.png);
+}
+
+.foodgram {
+  background-image: url(travellovers_home.png);
+}
+
+.screenshot:hover {
+  opacity: 1;
+}
+
+/************** CONTACT **************/
 .contact {
   text-align: center;
   padding: 50px;
