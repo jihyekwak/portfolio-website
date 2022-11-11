@@ -23,7 +23,7 @@ const Projects = () => {
                     <div>
                         <ul class="project-link right">
                             <li><a href="https://github.com/jihyekwak/project-5-lovetolearn"><FontAwesomeIcon icon={faGithub} /></a></li>
-                            <li><a href="#">demo</a></li>
+                            {/* <li><a href="#">demo</a></li> */}
                         </ul>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                     </ul>
                     <div>
                         <ul class="project-link"> 
-                            <li><a href="https://github.com/jihyekwak/project-5-lovetolearn"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li><a href="https://github.com/jihyekwak/project-4-travellovers"><FontAwesomeIcon icon={faGithub} /></a></li>
                             <li><a href="https://travellovers.herokuapp.com/">demo</a></li>
                         </ul>
                     </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                     </ul>
                     <div>
                         <ul class="project-link right">
-                            <li><a href="https://github.com/jihyekwak/project-5-lovetolearn"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li><a href="https://github.com/mbahan1/project-3-sapling"><FontAwesomeIcon icon={faGithub} /></a></li>
                             <li><a href="https://sapling-1026.herokuapp.com/">demo</a></li>
                         </ul>
                     </div>
@@ -83,7 +83,7 @@ const Projects = () => {
                 <div class="col-sm description">
                     <h6>Project</h6>
                     <h4><strong>Foodgram</strong></h4>
-                    <p className="project-desc-text">Share post regarding food and leave comment</p>
+                    <p className="project-desc-text">Built social media application, utilizing Express, Node.js, Mongoose, and MongoDB. User can make and share post regarding food and leave comments.</p>
                     <ul class="used-skills">
                         <li>Node.js</li>
                         <li>JS</li>
@@ -93,7 +93,7 @@ const Projects = () => {
                     </ul>
                     <div>
                         <ul class="project-link">
-                            <li><a href="https://github.com/jihyekwak/project-5-lovetolearn"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li><a href="https://github.com/preteyz/Project-2-web-app"><FontAwesomeIcon icon={faGithub} /></a></li>
                             <li><a href="https://project2-foodgram.herokuapp.com/">demo</a></li>
                         </ul>
                     </div>

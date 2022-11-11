@@ -9,27 +9,35 @@ const Contact = () => {
   return (
     <div className="component contact" id="contact">
         <h3>Contact</h3>
-        <h4>Get In Touch</h4>
+        {/* <h4>Get In Touch</h4> */}
         <div class="row">
             <div class="col-sm contact-detail">
                 <div>
-                    <FontAwesomeIcon icon={faGithub} />
-                    github.com/jihyekwak
+                    <a href="https://github.com/jihyekwak">
+                        <FontAwesomeIcon icon={faGithub} />
+                        {/* github.com/jihyekwak */}
+                    </a>
                 </div>
                 <div>
-                    <FontAwesomeIcon icon={faLinkedin} />
-                    LinkedIn.com/in/jihye-kwak
+                    <a href="https://www.linkedin.com/in/jihye-kwak/">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                        {/* LinkedIn.com/in/jihye-kwak */}
+                    </a>
                 </div>
                 <div>
-                    <FontAwesomeIcon icon={faEnvelope} />
-                    jihyekwak53@gmail.com
+                    <a href="mailto:jihyekwak53@gmail.com">
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        {/* jihyekwak53@gmail.com */}
+                    </a>
                 </div>
-                <div>
-                    <FontAwesomeIcon icon={faPhone} />
-                    925-378-8044
-                </div>
+                {/* <div>
+                    <a>
+                        <FontAwesomeIcon icon={faPhone} />
+                        925-378-8044
+                    </a>
+                </div> */}
             </div>
-            <div class="col-sm">
+            {/* <div class="col-sm">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
@@ -38,7 +46,7 @@ const Contact = () => {
                     <label for="exampleFormControlTextarea1">Example textarea</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )
