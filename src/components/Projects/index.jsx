@@ -13,7 +13,7 @@ const Projects = () => {
                 <div class="col-sm description right">
                     <h6>Project</h6>
                     <h4><strong>Love to Learn</strong></h4>
-                    <p className="project-desc-text">Built learning quiz app for young age students, utilizing postgreSQL for database, Django rest framework for backend, React for frontend and Material UI. <br />Adult user can sign up and login with JWT authentication and create student users. User can create, edit, and delete quizzes and questions for personlized learning. </p>
+                    <p className="project-desc-text">Built learning quiz platform for young age students, utilizing postgreSQL for database, Django rest framework for backend, and React for frontend and Material UI. <br />Users can sign up and login with JWT authentication and create individual student user accounts. Users can create, edit, and delete quiz sets for individual or group learning. </p>
                     <ul class="used-skills right">
                         <li>Django Rest Framework</li>
                         <li>React</li>
@@ -34,7 +34,7 @@ const Projects = () => {
                 <div class="col-sm description">
                     <h6>Project</h6>
                     <h4><strong>Travel Lovers</strong></h4>
-                    <p className="project-desc-text">Built travel planner, utilizing porstgreSQL for database and Django for backend and frontend. <br /> User can login and create travel planner with family and friends, the planner includes itineraries and checklists. And also user can leave comments, so that the users can share their plans and leave all memories.</p>
+                    <p className="project-desc-text">Built travel applications which primary feature includes information gathering and planning for a trip; utilizing porstgreSQL for database and Django for both backend and frontend.<br /> Users can login and create travel plans with families and friends. the planner can include an information bulletin, gerenating itineraries, and building checklists. In addition, users can leave comments so that they can share their plans with each other and be able to look back to their memories.</p>
                     <ul class="used-skills">
                         <li>Django</li>
                         <li>Python</li>
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div class="col-sm description right">
                     <h6>Project</h6>
                     <h4><strong>Sapling</strong></h4>
-                    <p className="project-desc-text">Built social media application, utilizing mongoDB for database, Express, Node.js for backend and React for frontend. <br/> The concept of the app is manifestation to the world for personal growth and share the ideas with other users. User can login with Google Oauth and create, edit, and delete posts, comments. And users can get proper advices from API service. </p>
+                    <p className="project-desc-text">Built social media application, utilizing mongoDB for database, Express and Node.js for backend, and React for frontend. <br/> The concept of the app is to express an indivduals personal growth journey and share their ideas with other users. Users can login with Google Oauth to create, edit, and delete posts, comments. Moreover, users can get proper advices from API services.</p>
                     <ul class="used-skills right">
                         <li>React</li>
                         <li>Node.js</li>
@@ -83,7 +83,7 @@ const Projects = () => {
                 <div class="col-sm description">
                     <h6>Project</h6>
                     <h4><strong>Foodgram</strong></h4>
-                    <p className="project-desc-text">Built social media application, utilizing Express, Node.js, Mongoose, and MongoDB. User can make and share post regarding food and leave comments.</p>
+                    <p className="project-desc-text">Built an end-to-end web application, utilizing mongoDB for database, and Express and Node.js for backend and frontend.<br/>This is a social media application concentrating in food. Users can login with Google Oauth to create, edit, and delete. They can leave posts, tags, and comments with images for themselves and other users.</p>
                     <ul class="used-skills">
                         <li>Node.js</li>
                         <li>JS</li>
